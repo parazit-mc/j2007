@@ -23,6 +23,7 @@ public class App {
         }
         plate.addFood(10);
 
+
         plate.info();
 
     }
