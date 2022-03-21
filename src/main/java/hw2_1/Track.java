@@ -16,5 +16,7 @@ public class Track implements Obstacle {
     @Override
     public void runTheTrack(Sportsman s) {
         System.out.println(s.getName() + " succesfully run the track " + this.name);
+
+
     }
 }

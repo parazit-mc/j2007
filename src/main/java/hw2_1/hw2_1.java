@@ -26,6 +26,7 @@ public class hw2_1 {
             for (Sportsman ss: sports) {
                 obstacles[i].jumpTheWall(ss);
                 obstacles[i].runTheTrack(ss);
+
             }
         }
 

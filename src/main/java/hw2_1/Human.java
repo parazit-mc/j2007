@@ -21,5 +21,6 @@ public class Human implements Sportsman {
     @Override
     public void run() {
         System.out.println("human named" + this.name+ " бегает");
+
     }
 }
