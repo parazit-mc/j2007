@@ -9,14 +9,21 @@ public class Wall  implements Obstacle  {
     }
 
     @Override
-    public void jumpTheWall(Sportsman s) {
+    public void overcome(Sportsman s) {
         System.out.println("this is the wall named " +this.name + " and " + s.getName() + " gets over it");
     }
 
-    @Override
-    public void runTheTrack(Sportsman s) {
-        System.out.println("this is the wall named " +this.name + " and cannot be runned by " + s.getName());
-    }
+
+
+//    @Override
+//    public void jumpTheWall(Sportsman s) {
+//        System.out.println("this is the wall named " +this.name + " and " + s.getName() + " gets over it");
+//    }
+//
+//    @Override
+//    public void runTheTrack(Sportsman s) {
+//        System.out.println("this is the wall named " +this.name + " and cannot be runned by " + s.getName());
+//    }
 
 
 

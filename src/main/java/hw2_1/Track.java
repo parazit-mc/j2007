@@ -8,15 +8,20 @@ public class Track implements Obstacle {
         this.name = name;
     }
 
-    @Override
-    public void jumpTheWall(Sportsman s) {
-        System.out.println("this obstacle named "+ this.name+ " is not jumpable and " + s.getName() + " cannot jump over it");
-    }
+//    @Override
+//    public void jumpTheWall(Sportsman s) {
+//        System.out.println("this obstacle named "+ this.name+ " is not jumpable and " + s.getName() + " cannot jump over it");
+//    }
+//
+//    @Override
+//    public void runTheTrack(Sportsman s) {
+//        System.out.println(s.getName() + " succesfully run the track " + this.name);
+//
+//
+//    }
 
     @Override
-    public void runTheTrack(Sportsman s) {
+    public void overcome(Sportsman s) {
         System.out.println(s.getName() + " succesfully run the track " + this.name);
-
-
     }
 }
