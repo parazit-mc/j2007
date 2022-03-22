@@ -24,8 +24,9 @@ public class hw2_1 {
 
         for (int i = 0; i < obstacles.length; i++) {
             for (Sportsman ss: sports) {
-                obstacles[i].jumpTheWall(ss);
-                obstacles[i].runTheTrack(ss);
+                obstacles[i].overcome(ss);
+//                obstacles[i].runTheTrack(ss);
+
             }
         }
 

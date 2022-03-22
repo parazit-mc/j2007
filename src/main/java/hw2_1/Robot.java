@@ -22,4 +22,6 @@ public class Robot implements Sportsman {
     public void run() {
         System.out.println("robot "+ this.name+ " бегает");
     }
+
+
 }
