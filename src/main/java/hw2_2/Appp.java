@@ -1,10 +1,9 @@
 package hw2_2;
-
 class MyArraySizeException extends Exception {
     public MyArraySizeException() {
         System.out.println("Size not correct");
     }
-   }
+}
 
 class MyArrayDataException extends Exception {
     public MyArrayDataException(int i, int j) {
@@ -40,11 +39,10 @@ class Converter {
     }
 
 }
-
-public class App {
+public class Appp {
 
     public static void main(String[] args) throws MyArraySizeException, MyArrayDataException {
-        App app = new App();
+        Appp app = new Appp();
         String[][] correct = {
                 {"1", "2", "3", "4"},
                 {"1", "2", "3", "4"},
@@ -70,4 +68,5 @@ public class App {
         Converter.processData(incorrect2);
 
     }
+
 }
