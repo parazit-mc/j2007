@@ -4,6 +4,5 @@ public interface Sportsman {
     String getName();
 
     public void run();
-
     public void jump();
 }
