@@ -9,15 +9,10 @@ public class Car implements Runnable {
     private Race race;
     private int speed;
     private String name;
-    private static CyclicBarrier startBarrier;
-    private static CountDownLatch countDownLatchFinish;
-    private static CountDownLatch countDownLatchReady;
+    private CyclicBarrier startBarrier = App.startBarrier;
+    private CountDownLatch countDownLatchFinish = App.countDownLatchFinish;;
+    private CountDownLatch countDownLatchReady = App.countDownLatchReady;
 
-    static {
-        countDownLatchFinish = App.countDownLatchFinish;
-        countDownLatchReady = App.countDownLatchReady;
-        startBarrier = App.startBarrier;
-    }
 
     String getName() {
         return name;
