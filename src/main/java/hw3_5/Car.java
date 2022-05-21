@@ -13,6 +13,7 @@ public class Car implements Runnable {
     private CountDownLatch countDownLatchFinish = App.countDownLatchFinish;;
     private CountDownLatch countDownLatchReady = App.countDownLatchReady;
 
+    
 
     String getName() {
         return name;
